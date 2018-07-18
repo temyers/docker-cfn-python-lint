@@ -4,5 +4,5 @@ Docker container for running Python [cfn-lint](https://github.com/awslabs/cfn-py
 
 Usage:
 ```
-docker run --rm -v $(pwd):/code -w /code temyers/cfn-python-lint path/to/my/template
+docker run --rm -v $(pwd):/code -w /code temyers/docker-cfn-python-lint path/to/my/template
 ```
